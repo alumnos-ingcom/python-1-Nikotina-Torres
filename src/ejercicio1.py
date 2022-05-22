@@ -11,6 +11,8 @@ Se quiere transformar temperaturas en grados fahrenheit a grados centígrados y 
 Escribir las funciones para convertir la temperatura en grados centigrados en fahrenheit como un número decimal,
 utilice esta formula para calcular los grados centígrados y retorne el resultado obtenido. Y viceversa.
 """
+#Pre-condiciones: Dos números representando grados de temperatura en centigrados y fahrenheit, respectivamente.
+#Post-condiciones: Los grados centigrados pasados a grados fahrenheit y viceversa, en decimal.
 
 centigrados=float(input("Ingrese grados centigrados"))
 fahrenheit=float(input("Ingrese grados fahrenheit"))
