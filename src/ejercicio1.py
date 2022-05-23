@@ -14,8 +14,21 @@ utilice esta formula para calcular los grados centígrados y retorne el resultad
 #Pre-condiciones: Dos números representando grados de temperatura en centigrados y fahrenheit, respectivamente.
 #Post-condiciones: Los grados centigrados pasados a grados fahrenheit y viceversa, en decimal.
 
-centigrados=float(input("Ingrese grados centigrados"))
-fahrenheit=float(input("Ingrese grados fahrenheit"))
+def principal():
+    """
+    Esta función es la que se encarga de la parte 'interactiva' del ejercicio
+    (La entrada, la llamada al algoritmo y la salida)
+    """
+    centigrados=float(input("Ingrese grados centigrados"))
+    fahrenheit=float(input("Ingrese grados fahrenheit"))
+
+        
+    resultado_f = round(convertir_a_fahrenheit(centigrados),1)
+    resultado_c = round(convertir_a_centigrados(fahrenheit),1)
+
+
+    print(f"{centigrados}C° es igual a: {resultado_f} Fahrenheit")
+    print(f"{fahrenheit}F° es igual a: {resultado_c} Centigrados")
 
     
 def convertir_a_fahrenheit(C):
@@ -31,10 +44,6 @@ def convertir_a_centigrados(F):
     (F son los grados en Fahrenheit y el return lo devuelve como Centigrados)
     '''
     return (F - 32) * 5/9
-     
-resultado_f = round(convertir_a_fahrenheit(centigrados),1)
-resultado_c = round(convertir_a_centigrados(fahrenheit),1)
 
-
-print(f"{centigrados}C° es igual a: {resultado_f} Fahrenheit")
-print(f"{fahrenheit}F° es igual a: {resultado_c} Centigrados")
+if __name__ == "__main__":
+    principal()
