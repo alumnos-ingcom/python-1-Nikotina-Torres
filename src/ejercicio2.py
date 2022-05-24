@@ -10,7 +10,7 @@ Escribir una función que reciba un número e indique si el mismo es positivo, n
 """
 #Pre condiciones: Un número real
 #Post condiciones: Una salida que especifique si el numero ingresado es negativo, cero o positivo
-numero=float(input("Ingrese un número"))
+
 
 def signo(numero):
     if numero+numero < 0:
@@ -19,5 +19,17 @@ def signo(numero):
         return "Positivo";
     else:
         return "Cero";
-print(signo(numero))
+
+
+
+def principal():
+    """
+    Esta función es la que se encarga de la parte 'interactiva' del ejercicio
+    (La entrada, la llamada al algoritmo y la salida)
+    """
+    numero=float(input("Ingrese un número"))
+    print(signo(numero))
+
+if __name__ == "__main__":
+    principal()
 
