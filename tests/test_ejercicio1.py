@@ -14,18 +14,22 @@ que el archivo a probar agregando antes `test_`
 
 
    
-def test_convertir_a_fahrenheit(C):
+def test_convertir_a_fahrenheit():
     '''
-    Probar convertir 50 grados centigrados a Fahrenheit 
+    Los grados centigrados son 50, el resultado debe 
+    ser igual a 25.6
     '''
-    G = 50
-    resultado = convertir_a_fahrenheit(G)
-    assert isinstance(resultado, str) "el resultado tiene que ser decimal"
+    grados = 78
+    resultado = convertir_a_fahrenheit(grados)
+    assert isinstance(resultado, float), "el resultado debe ser decimal"
+    assert resultado == 25.6, "el resultado no es correcto"
     
-def test_convertir_a_centigrados(F):
+def test_convertir_a_centigrados():
     '''
-    Probar convertir 50 grados Fahrenheit a centigrados
+    Los grados centigrados son 50, el resultado debe 
+    ser igual a 172.4
     '''
-    G = 50
-    resultado = convertir_a_centigrados(G)
-    assert isinstance(resultado, str) "el resultado tiene que ser decimal"
+    grados = 78
+    resultado = convertir_a_centigrados(grados)
+    assert isinstance(resultado, float), "el resultado debe ser decimal"
+    assert resultado == 172.4, "el resultado no es correcto"
