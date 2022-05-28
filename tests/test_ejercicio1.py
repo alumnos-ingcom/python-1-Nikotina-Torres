@@ -32,4 +32,4 @@ def test_convertir_a_centigrados():
     grados = 78
     resultado = convertir_a_centigrados(grados)
     assert isinstance(resultado, float), "el resultado debe ser decimal"
-    assert resultado == 25.6, "el resultado no es correcto"
+    assert round(resultado, 1) == 25.6, "el resultado no es correcto"
