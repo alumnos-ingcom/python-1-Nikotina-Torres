@@ -14,12 +14,17 @@ es positivo, negativo o cero utilizando sumas y restas.
 
 
 def signo(numero):
+    '''
+    Retorna el signo de un numero indicado siendo:
+    1 si es positivo, -1 si es negativo y 0 si es 0
+    sintaxis: signo(numero)
+    '''
     if numero+numero < 0:
-        return "Negativo"
+        return -1
     elif numero+numero > 0:
-        return "Positivo"
+        return 1
     else:
-        return "Cero"
+        return 0
 
 
 

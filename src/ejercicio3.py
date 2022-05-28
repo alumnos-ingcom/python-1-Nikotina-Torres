@@ -13,11 +13,22 @@ Escribir una función que utilizando sumas y restas, reciba dos valores y retorn
     Retornar 1 si el primero es mayor que el segundo
 
 """
+from ejercicio2 import signo
 
 def compara(numero, otro_numero):
+    """
+    Comparar un numero con otro numero
+    Se retornará 1 si el primero es mayor que el segundo
+    Se retornará -1 si el segundo es mayor que el primero
+    Se retornará 0 si los dos números son iguales
+    """
     suma = 0
-    while suma != otro_numero:
-        suma+=1
+    if signo(otro_numero) == 1:
+        while suma != otro_numero:
+            suma+=1
+    else:
+        while suma != otro_numero:
+            suma-=1
     if suma < numero:
         return 1
     elif suma > numero:
