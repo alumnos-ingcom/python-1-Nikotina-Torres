@@ -42,7 +42,7 @@ def convertir_a_fahrenheit(c):
     para pasar de grados Centigrados a Fahrenheit
     (C son los grados en centigrados y el return lo devuelve como Fahrenheit)
     '''
-    return (c * 9/5) + 32
+    return round((c * 9/5) + 32, 1)
 
 def convertir_a_centigrados(f):
     '''
@@ -50,7 +50,7 @@ def convertir_a_centigrados(f):
     pasar de grados Fahrenheit a Centigrados
     (F son los grados en Fahrenheit y el return lo devuelve como Centigrados)
     '''
-    return (f - 32) * 5/9
+    return round((f - 32) * 5/9, 1)
 
 if __name__ == "__main__":
     principal()
