@@ -10,7 +10,7 @@ Escribir una función que mediante restas sucesivas,
 obtenga el valor del cociente y resto de dos números enteros.
 
 """
-from ejercicio2 import signo
+from src.ejercicio2 import signo
 
 def division_lenta(dividendo, divisor):
     """

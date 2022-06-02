@@ -1,7 +1,10 @@
 ################
-# Nombre - @usuario_github
+# Nombre - @Nikotina-Torres
 # UNRN Andina - Introducción a la Ingenieria en Computación
 ################
+import pytest
+
+from src.ejercicio1 import convertir_a_fahrenheit, convertir_a_centigrados
 
 """
 Describir aquí que es lo que se esta probando.

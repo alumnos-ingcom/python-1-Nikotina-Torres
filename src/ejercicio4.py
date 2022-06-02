@@ -15,7 +15,7 @@ las operaciones resultantes deberán ser 4+1+1+1.
 La funcion debe ser capaz de sumar cualquier numero entero positivo y negativo.
 
 """
-from ejercicio2 import signo
+from src.ejercicio2 import signo
 
 def suma_lenta(numero, otro_numero):
     """

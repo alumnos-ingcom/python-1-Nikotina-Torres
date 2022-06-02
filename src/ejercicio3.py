@@ -13,7 +13,7 @@ Escribir una función que utilizando sumas y restas, reciba dos valores y retorn
     Retornar 1 si el primero es mayor que el segundo
 
 """
-from ejercicio2 import signo
+from src.ejercicio2 import signo
 
 def compara(numero, otro_numero):
     """
