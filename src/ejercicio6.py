@@ -10,7 +10,7 @@ Escribir una función que a partir de tres variables de tipo entero retorne una
 tupla con dichos valores ordenados de menor a mayor. Y Viceversa
 
 """
-from ejercicio3 import compara
+from src.ejercicio3 import compara
 
 def ordenar_mayor_a_menor(uno, dos, tres):
     """
