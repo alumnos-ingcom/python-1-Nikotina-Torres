@@ -1,6 +1,6 @@
 ################
-# Nombre - @usuario_github
-# UNRN Andina - IntroducciÃ³n a la Ingenieria en ComputaciÃ³n
+# Nombre - @Nikotina-Torres
+# UNRN Andina - Introducción a la Ingenieria en Computación
 ################
 
 """
@@ -11,11 +11,10 @@ Enunciado del ejercicio
 
 def principal():
     """
-    Esta funciÃ³n es la que se encarga de la parte 'interactiva' del ejercicio
+    Esta función es la que se encarga de la parte 'interactiva' del ejercicio
     (La entrada, la llamada al algoritmo y la salida)
     """
     pass
 
 if __name__ == "__main__":
     principal()
-
