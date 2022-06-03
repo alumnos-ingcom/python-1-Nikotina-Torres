@@ -8,7 +8,7 @@
 
 Escribir una función que retorne una tuple con factores primos de un numero entero positivo.
 """
-from ejercicio8 import es_primo
+from src.ejercicio8 import es_primo
 
 def factores_primos(numero):
     """
@@ -28,7 +28,7 @@ def factores_primos(numero):
                 contador += 1
         else:
             contador += 1
-    return resultado
+    return tuple(resultado)
 
 
 def principal():
@@ -37,8 +37,7 @@ def principal():
     (La entrada, la llamada al algoritmo y la salida)
     """
     numero = abs(int(input("Ingrese un numero entero positivo... ")))
-    lista_factores = factores_primos(numero)
-    tupla_factores = tuple(lista_factores)
+    tupla_factores = factores_primos(numero)
     print(f"Los factores primos de {numero} son:")
     print(f"{tupla_factores}")
 

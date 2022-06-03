@@ -33,5 +33,3 @@ def test_decimal_a_sexadecimal():
     assert segundos == 24, "Los segundos están mal"
     assert minutos == 20, "Los minutos están mal"
     assert horas == 12, "Las horas están mal"
-
-

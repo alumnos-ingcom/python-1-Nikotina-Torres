@@ -8,7 +8,7 @@ import pytest
 from src.ejercicio2 import signo
 
 """
-Probando la función cuya tarea es indicar si un número ingresado es 
+Probando la función cuya tarea es indicar si un número ingresado es
 positivo, negativo o cero.
 Tengan en cuenta que el archivo tiene que llamarse igual
 que el archivo a probar agregando antes `test_`

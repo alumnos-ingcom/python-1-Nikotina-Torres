@@ -14,17 +14,17 @@ que el archivo a probar agregando antes `test_`
 
 def test_convertir_a_fahrenheit_positivo():
     '''
-    Los grados centigrados son 78, el resultado debe 
+    Los grados centigrados son 78, el resultado debe
     ser igual a 172.4
     '''
     grados = 78
     resultado = convertir_a_fahrenheit(grados)
     assert isinstance(resultado, float), "el resultado debe ser decimal"
     assert resultado == 172.4, "el resultado no es correcto"
-    
+
 def test_convertir_a_fahrenheit_negativo():
     '''
-    Los grados centigrados son -79, el resultado debe 
+    Los grados centigrados son -79, el resultado debe
     ser igual a -110.2
     '''
     grados = -79

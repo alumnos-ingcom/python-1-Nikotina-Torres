@@ -11,7 +11,6 @@ try:
 except ImportError as exc:
     from src.ejercicio3 import compara
 
-
 """
 Probando funcion de ordenar tres numeros de mayor a menor y de menor a mayor
 Usando tanto numeros negativos como positivos.
@@ -38,4 +37,3 @@ def test_ordenar_menor_a_mayor():
     numero3 = -152
     resultado = ordenar_menor_a_mayor(numero1, numero2, numero3)
     assert resultado == (-152, 152, 153), "Los numeros no estan bien ordenados"
-

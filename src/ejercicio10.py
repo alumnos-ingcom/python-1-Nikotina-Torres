@@ -20,7 +20,7 @@ def es_palindromo(texto):
     lista_letras = list(texto)
     contador = 0
     contador_negativo = -1
-    while contador != round((len(lista_letras)/2)):
+    while contador != len(lista_letras):
         if texto[contador] == texto[contador_negativo]:
             contador += 1
             contador_negativo -= 1

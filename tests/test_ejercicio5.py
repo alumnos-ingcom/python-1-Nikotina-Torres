@@ -26,7 +26,7 @@ def test_division_lenta_positivo():
     entre = 2
     cociente, resto = division_lenta(dividir, entre)
     assert cociente == 5, "El cociente está mal"
-    assert resto == 1, "El resto está mal" 
+    assert resto == 1, "El resto está mal"
 
 def test_division_lenta_negativo():
     """
@@ -57,4 +57,3 @@ def test_division_lenta_divisor_negativo():
     cociente, resto = division_lenta(dividir, entre)
     assert cociente == -5, "El cociente está mal"
     assert resto == 1, "El resto está mal"
-

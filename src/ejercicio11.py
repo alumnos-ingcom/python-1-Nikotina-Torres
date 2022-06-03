@@ -10,7 +10,7 @@ Escribir una función que indique con True si un número
 entero es multiplo de otro, utilizando sumas y restas.
 
 """
-from ejercicio2 import signo
+from src.ejercicio2 import signo
 
 def es_multiplo(numero, multiplo):
     """

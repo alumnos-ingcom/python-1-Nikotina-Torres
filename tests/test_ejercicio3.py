@@ -27,7 +27,7 @@ def test_compara_primero_mayor():
     resultado = compara(numero, otro_numero)
     assert resultado == 1, "El resultado está mal"
     assert isinstance(resultado, int), "El resultado debe ser un n° entero"
-    
+
 def test_compara_iguales():
     """
        Compara el numero 42 con el 42, por lo tanto el resultado debería ser 0.
